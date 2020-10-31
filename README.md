@@ -12,7 +12,7 @@ Vous voyez ici mon projet de fin d'études. Les consignes sont les suivantes :
 Objectif de cette mission : 
         <li> Faire découvrir l'univers de Fairy Tail ! 
         <li> Faire une API de chaque personnage de cette guilde ! 
-        <li> Donner les liens de chaque Film, OAV, musique de cette univers fantastique ! 
+        <li> Donner les liens de chaque Film, OAV, musique de cet univers fantastique ! 
     
 Pour ce qui est de mon code : 
         <li> Je l'ai fait en fonction de mon expérience : gros manque de commentaires 
