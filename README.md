@@ -23,6 +23,6 @@ Pour ce qui est de mon code :
         <li> Je n'ai pas beaucoup intégrer de JavaScript car je suis plus aisée sur la parti PHP !
    
     
-pourquoi ce thème ? <br> 
-je suis un grand adorateur du manga Fairy Tail et je n'avais pas d'idée pour un projet de Développement de fin de formation
+Pourquoi ce thème ? <br> 
+<li> je suis un grand adorateur du manga Fairy Tail et je n'avais pas d'idée pour un projet de Développement de fin de formation
 , j'ai donc eu cette idée de créer cette API sur les personnages et la guilde de Fairy Tail ! 
