@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title><?= isset($pageTitle) ? $pageTitle : 'Fairy Tail' ?></title>
+    <meta name="description" content="Présentation de Fairy Tail">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/jpg" href="<?= PATH_URI ?>public/images/logoFairyTail.jpg"/>
+    <link rel="stylesheet" href="<?= PATH_URI ?>public/css/normalize-3.0.3.min.css">
+    <link rel="stylesheet" href="<?= PATH_URI ?>public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= PATH_URI ?>public/css/all.css">
+    <link rel="stylesheet" href="<?= PATH_URI ?>public/css/main.css">
+</head>
+<body>
+<?php include "$header.phtml"?>
+<?php include "$template.phtml"?>
+<?php include "$footer.phtml"?>
+
+<script src="<?= PATH_URI ?>public/js/jquery.js"></script>
+<script src="<?= PATH_URI ?>public/js/ajax.js"></script>
+<script src="<?= PATH_URI ?>public/js/character.js"></script>
+<script src="<?= PATH_URI ?>public/js/event.js"></script>
+<script src="<?= PATH_URI ?>public/js/main.js"></script>
+</body>
+</html>

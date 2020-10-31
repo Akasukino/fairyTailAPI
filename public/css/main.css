@@ -1,0 +1,471 @@
+@charset "UTF-8";
+/**
+        View Mobile
+ **/
+article{
+    background-color: rgba(25,25,25,0.5);
+}
+body{
+    background-image: url("../../public/images/logoBackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+header {
+    background-color:rgba(25,25,25,0.2);
+}
+
+header img {
+    width: 100%;
+}
+
+header > nav ul {
+    padding: 10px 0;
+    list-style: none;
+    text-align: center;
+}
+
+header > nav li {
+    display: inline-block;
+    padding: 15px 15px;
+}
+
+header > nav a {
+    text-decoration: none;
+    color: white;
+}
+
+header > nav i {
+    padding: 0 10px;
+}
+
+section {
+    padding: 0 30px;
+}
+
+section a {
+    text-decoration: none;
+    color:#FF0000;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px 40px;
+    color: #d80e0e;
+}
+h1 img{
+    width: 15%;
+}
+h1 img:first-child{
+    transform:scaleX(-1);
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: #00ffff;
+}
+b{
+    color:deepskyblue;
+}
+section p,li{
+    line-height: 35px;
+    font-size: 1.2em;
+    color:#ffff00;
+    padding: 0 25px;
+    text-shadow: 2px 2px 2px black;
+}
+div > p {
+    padding: 0 40px;
+}
+.openings p,.endings p{
+    text-align: center;
+}
+.season{
+    color:#f7f7f7;
+}
+#searchForm > label {
+    padding: 20px 50px;
+    margin: 25px;
+    font-size: 1.3em;
+    color: #d80e0e;
+}
+
+#searchForm > input {
+    margin: 15px 75px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#searchForm > button {
+    margin: 15px 100px;
+    padding: 10px;
+    font-size: 1.3em;
+    border-radius: 25px;
+    background-color: green;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    line-height: 30px;
+}
+
+footer {
+    background-color: rgba(0,125,125,0.5);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: darkred;
+}
+
+.hide {
+    display: none;
+}
+
+.tableDescriptionCharacter {
+    text-align: center;
+    margin: auto;
+}
+
+.tableDescriptionCharacter td, th {
+    padding: 25px;
+}
+
+#addCharacterForm button {
+    padding: 10px;
+    margin: 10px 350px;
+    border-radius: 30px;
+}
+
+#addCharacterForm div {
+    padding: 15px;
+}
+
+#addCharacterForm a {
+    text-decoration: none;
+}
+#addCharacterForm  label{
+    color: white;
+}
+#addCharacterForm  input{
+    width: 50%;
+    text-align: center;
+    margin:10px auto ;
+}
+.primaryButton {
+    text-align: center;
+}
+.primaryButton a {
+    margin: 15px 15px;
+}
+.characterStyle{
+    text-align: center;
+    margin: auto;
+    padding: 25px;
+    width: 75%;
+}
+.characterStyle p{
+    text-align: left;
+    padding: 20px 0;
+    text-shadow: none;
+}
+.characterStyle img{
+    width: 75%;
+}
+.characterList{
+    text-align: center;
+}
+.character {
+    border-top: 3px solid red;
+}
+.character img {
+    width: 60%;
+    padding: 30px 0;
+}
+.character a {
+    display: block;
+    font-size: 1.3em;
+    text-align: center;
+}
+.characterPageDesc p {
+    color:black;
+}
+
+/**
+        ******************* View Tablette **************************
+**/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    header > nav li {
+        font-size: 1.4em;
+    }
+    h1 img{
+        width: 10%;
+    }
+    article {
+        padding: 25px;
+    }
+
+    #searchForm > label {
+        display: block;
+        text-align: center;
+    }
+
+    #searchForm > input {
+        display: block;
+        margin: auto;
+    }
+
+    #searchForm > button {
+        display: block;
+        margin: 30px auto;
+    }
+
+    .tableDescriptionCharacter th, td {
+        font-size: 1.3em;
+    }
+    .characterStyle img{
+        width: 50%;
+    }
+    .characterList div{
+        padding-bottom: 30px;
+        background-color:rgba(128,128,128,0.7);
+        margin: 25px;
+    }
+    .characterList a {
+        font-size: 2em;
+        background-color: darkred;
+        border-radius: 25px;
+        color:gold;
+        width: 40%;
+        margin: auto;
+    }
+    .character img{
+        width: 30%;
+    }
+    .character a{
+        font-size: 1.5em;
+    }
+}
+
+/**
+        View Desktop
+ **/
+@media screen and (min-width: 1024px) {
+
+    body{
+        background-image: url("../../public/images/logoBackground.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    header img {
+        width: 50%;
+        position: relative;
+        left: 500px;
+    }
+
+    header li {
+        font-size: 1.5em;
+    }
+    header nav a:hover{
+        color:darkred;
+    }
+    h1 img{
+        width: 5%;
+    }
+    main {
+        width: 75%;
+        margin: auto;
+    }
+    div > p {
+        text-align: center;
+    }
+    section a:hover{
+        color:#00ff00;
+    }
+
+    #searchForm > label {
+        display: block;
+        text-align: center;
+    }
+
+    #searchForm > input {
+        display: block;
+        margin: auto;
+    }
+
+    #searchForm > button {
+        display: block;
+        margin: 30px auto;
+    }
+
+    .tableDescriptionCharacter th, td {
+        font-size: 1.3em;
+    }
+    .character{
+        text-align: left;
+        position: relative;
+        left: 400px;
+    }
+    .characterList{
+        text-align: center;
+        width: 50%;
+    }
+    .characterList div{
+        padding-bottom: 30px;
+        background-color:rgba(128,128,128,0.7);
+        margin: 25px;
+    }
+    .characterList a {
+        font-size: 2em;
+        background-color: darkred;
+        border-radius: 25px;
+        color:gold;
+        width: 40%;
+        margin: auto;
+    }
+    .characterList a:hover{
+        color:red;
+        background-color: gold;
+
+    }
+    .characterList img{
+        width: 25%;
+    }
+    .characterPageDesc {
+        background-color: rgba(0,0,0,0.7);
+        width: 75%;
+        margin: auto;
+        color:white;
+    }
+    .characterPageDesc p{
+        color:white;
+    }
+
+    /**
+    **
+    **
+    **
+        Page masterOfGuilde
+    **
+    **
+    **
+    **/
+
+
+    .masterOfGuild {
+        height: 1000px;
+        background-image: url("../../public/images/masters.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    #addCharacterForm fieldset, #editCharacterForm fieldset, #deleteCharacterForm fieldset{
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.7);
+        position: relative;
+        left: 400px;
+        margin: 25px;
+    }
+
+    #addCharacterForm legend, #editCharacterForm legend, #deleteCharacterForm legend {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 5px;
+        color: white;
+    }
+    #editCharacterForm{
+        text-align: center;
+    }
+    #editCharacterForm input{
+        margin:  0 0 25px;
+        width: 30%;
+        text-align: center;
+        color:black;
+        background-color: darkgrey;
+        border-radius: 25px;
+    }
+    #editCharacterForm button{
+        border-radius: 20px;
+        padding: 5px;
+        margin: 0 0 25px;
+        color:white;
+        background-color: #0000cd;
+    }
+    .adminDescription {
+        background-color: rgba(0,0,0,0.6);
+        margin: 0 550px;
+        width: 50%;
+        color:white;
+    }
+    .adminDescription h2{
+        color:white;
+    }
+    .characterStyle img{
+        width: 50%;
+    }
+    .characterStyle h1,p,img{
+        margin: 25px;
+    }
+    .characterStyle h1{
+        color:#FFFFFF;
+        background-color: rgba(100,100,100,0.5);
+        width: 75%;
+        margin: auto;
+    }
+    .characterStyle p{
+        background-color: rgba(255,255,255,0.7);
+        color:black;
+        padding: 25px 50px;
+        font-size: 1.4em;
+        line-height: 40px;
+    }
+    .editSearch{
+        text-align: center;
+        padding: 25px;
+    }
+    .editSearch div{
+        padding: 15px;
+    }
+    .editForm input{
+        margin: 25px auto;
+    }
+    .sectionEdit img{
+        width: 15%;
+    }
+    .sectionEdit div{
+        border-bottom: 2px solid black;
+        text-align: center;
+    }
+    .sectionEdit a{
+        font-size: 2em;
+        margin: 0 200px;
+    }
+    .sectionEdit{
+        text-align: center;
+    }
+    .sectionEdit h2{
+        color:orangered;
+        text-decoration: none;
+    }
+    .editForm{
+        text-align: center;
+        margin: 25px;
+    }
+    .editForm span{
+        color: orangered;
+    }
+
+    /********
+    *********
+    ********* Fin de Page masterOfGuilde
+    *********
+    *********/
+    .character{
+        text-align: center;
+        background-color: rgba(255,255,255,0.5);
+    }
+}

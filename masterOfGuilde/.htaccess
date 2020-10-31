@@ -1,0 +1,4 @@
+AuthName "Page d'administration prot�g�e, veuillez vous identifier"
+AuthType Basic
+AuthUserFile "/wamp64/www/dev/fairytail/.htpasswd"
+Require valid-user

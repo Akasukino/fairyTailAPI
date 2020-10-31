@@ -1,0 +1,41 @@
+<a href="editCharacter.php"><i class="fas fa-arrow-alt-circle-left"></i> Page de modification</a>
+
+<?php if (isset($errors['characterName'])): ?>
+    <h5 class="alert-danger"><?= $errors['characterName']?></h5>
+<?php endif?>
+
+<?php if (isset($errors['characterBiography'])): ?>
+    <h5 class="alert-danger"><?= $errors['characterBiography']?></h5>
+<?php endif?>
+
+<?php if (isset($errors['changePhoto'])): ?>
+    <h5 class="alert-danger"><?= $errors['changePhoto']?></h5>
+<?php endif?>
+<form class="editForm" method="post">
+    <input type="hidden" name="id" value="<?= intval($character['id']) ?>">
+    <fieldset>
+        <legend><span><?= $character['characterName'] ?></span></legend>
+    </fieldset>
+    <div>
+        <img src="<?= $character['photo'] ?>" alt="<?= $character['characterName'] ?>">
+    </div>
+    <div>
+        <label for="characterName"></label>
+        <input type="text" id="characterName" name="characterName" value="<?= $character['characterName'] ?>" size="100">
+    </div>
+    <div>
+        <label for="characterBiography"></label>
+        <textarea name="characterBiography" id="characterBiography" cols="100"
+                  rows="20"><?= $character['biography'] ?></textarea>
+    </div>
+    <div>
+        <label for="changePhoto"></label>
+        <input type="url" name="changePhoto" id="changePhoto"
+               placeholder="https://example.com"
+               pattern="https://.*" size="100"
+               value="<?= $character['photo'] ?>">
+    </div>
+    <button class="btn-info" name="edit">Modifier <?= $character['characterName'] ?></button>
+    <input type="submit" name="delete" value="Supprimer <?= $character['characterName'] ?>" class="btn-danger">
+</form>
+

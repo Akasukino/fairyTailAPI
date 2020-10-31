@@ -1,0 +1,37 @@
+<body>
+<section class="masterOfGuild">
+    <?php include "$button.phtml" ?>
+    <form name="addCharacter" method="post" id="addCharacterForm">
+        <fieldset>
+            <legend>Ajouter un personnage
+            </legend>
+            <div>
+                <?php if (isset($errors['nameCharacter'])): ?>
+                    <h5 class="alert-danger"><?= $errors['nameCharacter']?></h5>
+                <?php endif?>
+                <label for="nameCharacter"></label>
+                <input type="text" class="form-control" id="nameCharacter" name="nameCharacter"
+                       placeholder="Nom et Prenom" value="<?= htmlspecialchars($_POST['nameCharacter'] ?? '')?>">
+            </div>
+            <div>
+                <?php if (isset($errors['biography'])): ?>
+                    <h5 class="alert-danger"><?= $errors['biography']?></h5>
+                <?php endif?>
+                <label for="biography">Biographie du personnage</label>
+                <textarea name="biography" id="biography" cols="50" rows="15"><?= $_POST['biography'] ?? '' ?></textarea>
+            </div>
+            <div>
+                <?php if (isset($errors['photo'])): ?>
+                    <h5 class="alert-danger"><?= $errors['photo']?></h5>
+                <?php endif?>
+                <label for="photo">Photo du personnage / URL </label>
+                <input type="url" name="photo" id="photo"
+                       placeholder="https://example.com"
+                       pattern="https://.*" size="30"
+                value="<?= $_POST['photo'] ?? '' ?>">
+            </div>
+            <button type="submit">Envoyer</button>
+        </fieldset>
+    </form>
+</section>
+</body>
