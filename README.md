@@ -1,12 +1,12 @@
 Vous voyez ici mon projet de fin d'études. Les consignes sont les suivantes :
 
-        <li> Utiliser les 5 langages suivants : PHP, JS, MySQL, HTML, CSS
-        <li> Ne pas utiliser de framework/librairie
-        <li> Projet autonome (pas d'équipe)
-        <li> Sujet libre
-        <li> Aucun accompagnement (il était disponible, je n'en ai pas ressenti le besoin)
-        <li> Build from scratch, 100% du contenu, du code, et de l'architecture sont de moi.
-        <li> Délai maximum de 2 mois.
+<li> Utiliser les 5 langages suivants : PHP, JS, MySQL, HTML, CSS
+<li> Ne pas utiliser de framework/librairie
+<li> Projet autonome (pas d'équipe)
+<li> Sujet libre
+<li> Aucun accompagnement (il était disponible, je n'en ai pas ressenti le besoin)
+<li> Build from scratch, 100% du contenu, du code, et de l'architecture sont de moi.
+<li> Délai maximum de 2 mois.
 
 
 Objectif de cette mission : 
