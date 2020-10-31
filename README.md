@@ -16,7 +16,7 @@
     
 <h3>Pour ce qui est de mon code :</h3>
         <li> Je l'ai fait en fonction de mon expérience : gros manque de commentaires 
-        ( sur ce quoi je travaille actuellement en parallèle de projets perso! )
+        ( ce sur quoi je travaille actuellement en parallèle de projets perso! )
         <li> J'ai eu pas mal de difficulté sur la parti PHP, 
         tout ce que j'ai essayé en PHP ne me satisfaisait pas et je remets toujours en question mon code ! 
         <li> Je n'ai pas beaucoup intégré de JavaScript car je suis plus aisée sur la parti PHP !
@@ -29,4 +29,4 @@ j'ai donc eu l'idée de créer une API sur les personnages et la guilde de Fairy
 <h3>Les points positifs</h3>
 <li>1: La parti développement ! </li>
 <li>2: La recherche des informations pour créer l'API ! </li>
-<li>3: Le gain d'experience à chaque moment passer à écrire des lignes de codes !</li>
+<li>3: Le gain d'experience à chaque moment passé à écrire des lignes de codes !</li>
