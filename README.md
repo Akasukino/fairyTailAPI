@@ -17,10 +17,10 @@ Objectif de cette mission :
 Pour ce qui est de mon code : 
         <li> Je l'ai fait en fonction de mon expérience : gros manque de commentaires 
         ( sur ce quoi je travaille actuellement en parallèle de travailler sur des projets perso pour obtenir de 
-        l’expériences ! )
+        l’expérience ! )
         <li> J'ai eu pas mal de difficulté sur la parti PHP, 
         tout ce que j'ai essayer en PHP ne me satisfaisait pas et je remet toujours en question mon code ! 
-        <li> Je n'ai pas beaucoup intégrer de JavaScript car je suis plus aisée sur la parti PHP !
+        <li> Je n'ai pas beaucoup intégré de JavaScript car je suis plus aisée sur la parti PHP !
    
     
 Pourquoi ce thème ? <br> 
