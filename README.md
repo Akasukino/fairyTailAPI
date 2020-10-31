@@ -27,6 +27,6 @@
 j'ai donc eu l'idée de créer une API sur les personnages et la guilde de Fairy Tail ! 
 
 <h3>Les points positifs</h3>
-<li>1: La parti développement ! </li>
+<li>1: La partie développement ! </li>
 <li>2: La recherche des informations pour créer l'API ! </li>
 <li>3: Le gain d'experience à chaque moment passé à écrire des lignes de codes !</li>
