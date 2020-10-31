@@ -16,8 +16,7 @@
     
 <h3>Pour ce qui est de mon code </h3>
         <li> Je l'ai fait en fonction de mon expérience : gros manque de commentaires 
-        ( sur ce quoi je travaille actuellement en parallèle de travailler sur des projets perso pour obtenir de 
-        l’expérience ! )
+        ( sur ce quoi je travaille actuellement en parallèle de projets perso! )
         <li> J'ai eu pas mal de difficulté sur la parti PHP, 
         tout ce que j'ai essayé en PHP ne me satisfaisait pas et je remets toujours en question mon code ! 
         <li> Je n'ai pas beaucoup intégré de JavaScript car je suis plus aisée sur la parti PHP !
