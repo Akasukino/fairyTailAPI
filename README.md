@@ -15,7 +15,7 @@ Objectif de cette mission :
         <li> Donner les liens de chaque Film, OAV, musique de cette univers fantastique ! 
     
 Pour ce qui est de mon code : 
-        <li> Je l'ai fais en fonction de mon expérience : gros manque de commentaires 
+        <li> Je l'ai fait en fonction de mon expérience : gros manque de commentaires 
         ( sur ce quoi je travaille actuellement en parallèle de travailler sur des projets perso pour obtenir de 
         l’expériences ! )
         <li> J'ai eu pas mal de difficulté sur la parti PHP, 
@@ -24,5 +24,5 @@ Pour ce qui est de mon code :
    
     
 Pourquoi ce thème ? <br> 
-<li> je suis un grand adorateur du manga Fairy Tail et je n'avais pas d'idée sur le moment pour un projet de Développement de fin de formation
-, j'ai donc eu cette idée de créer cette API sur les personnages et la guilde de Fairy Tail ! 
+<li> je suis un grand adorateur du manga Fairy Tail et
+j'ai donc eu l'idée de créer une API sur les personnages et la guilde de Fairy Tail ! 
