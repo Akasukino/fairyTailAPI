@@ -28,5 +28,5 @@ j'ai donc eu l'idée de créer une API sur les personnages et la guilde de Fairy
 
 <h3>Les points positifs</h3>
 <li>1: La parti développement ! </li>
-<li>2: La recherche des information pour créer l'API ! </li>
+<li>2: La recherche des informations pour créer l'API ! </li>
 <li>3: Le gain d'experience à chaque moment passer à écrire des lignes de codes !</li>
