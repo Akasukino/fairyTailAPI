@@ -9,12 +9,12 @@
 <li> Délai maximum de 2 mois.
 
 
-<h3>Objectif de cette mission </h3>
+<h3>Objectif de cette mission :</h3>
         <li> Faire découvrir l'univers de Fairy Tail ! 
         <li> Faire une API de chaque personnage de cette guilde ! 
         <li> Donner les liens de chaque Film, OAV, musique de cet univers fantastique ! 
     
-<h3>Pour ce qui est de mon code </h3>
+<h3>Pour ce qui est de mon code :</h3>
         <li> Je l'ai fait en fonction de mon expérience : gros manque de commentaires 
         ( sur ce quoi je travaille actuellement en parallèle de projets perso! )
         <li> J'ai eu pas mal de difficulté sur la parti PHP, 
