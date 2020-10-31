@@ -24,5 +24,5 @@ Pour ce qui est de mon code :
    
     
 Pourquoi ce thème ? <br> 
-<li> je suis un grand adorateur du manga Fairy Tail et je n'avais pas d'idée pour un projet de Développement de fin de formation
+<li> je suis un grand adorateur du manga Fairy Tail et je n'avais pas d'idée sur le moment pour un projet de Développement de fin de formation
 , j'ai donc eu cette idée de créer cette API sur les personnages et la guilde de Fairy Tail ! 
